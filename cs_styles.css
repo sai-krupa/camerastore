@@ -1,0 +1,204 @@
+/*
+   New Perspectives on HTML and CSS
+   
+   Cam Store Style Sheet
+   Author: Sai Krupa
+   Date: 6/12/2015
+
+   Filename: cs_styles.css
+
+*/
+
+/* Styles for the page Body */
+
+body {
+	background: url(bg.jpg) top left repeat;
+	color: #2B445D;
+	line-height: 1.3em;
+}
+
+a:hover, a:focus {
+	color: #ffffff;
+}
+
+a:link, a:active {
+	color: #2B445D;
+}
+
+/* Styles for the page Header */
+header {
+	text-align: center;
+}
+
+header img {
+	position: relative;
+	right: 480px;
+	height: 120px;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0.5em;
+	margin: 0;
+}
+
+/* General navigation List styles */
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+/* Horizontal Navigation List */
+nav.horizontal-nav {
+	margin-left: 15.5em;
+}
+
+nav.horizontal-nav p {
+	display: inline;
+	text-align: center;
+	border: 2px solid #2B445D;
+	background-color: #44BBF8;
+	padding: 0.2em 3.6em 0.2em 3.6em;
+}
+
+/* Style for Welcome */
+.main {
+	width: 65%;
+	float: left;
+}
+
+.welcome {
+	display: block;
+}
+
+.welcome-title {
+	font-family: 'Lucida Calligraphy', 'Apple Chancery', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.welcome-image {
+	float: left;
+	margin-right: 0.5em;
+	border-radius: 0.5em;
+	display: inline;
+	width: 600px; 
+	height: 270px; 
+}
+
+.welcome-description {
+	text-align: justify;
+}
+
+/* Styles for Different Cameras */
+.cameras {	
+	max-width:50%;
+	float: left;
+}
+
+.camera-first-column{
+	clear: left;
+	padding-top: 0.5em;
+}
+
+.camera-second-column {	
+	padding-top: 0.5em;
+}
+
+.camera-title {	
+	clear:left;
+	float: left;
+}
+
+.camera-image {
+	clear: left;
+	float: left;
+	border: 1px solid;
+	border-radius: 1em;
+	margin: 0.2em;
+	position: relative;		
+}
+
+.camera-description {
+	float: left;	
+	text-align: justify;
+	padding: 0 0.2em 0.2em 0.2em;
+	margin: 0;
+}
+
+/* Left Vertical Navigation List */
+.leftvertical-nav {
+	border: 2px solid;
+	margin-top: 2em;	
+	width: 15%;
+	clear: both;
+	float: left;	
+	margin-right : 0.5em;
+	margin-left: 1.5em;	
+}
+
+.leftvertical-nav ul, .leftvertical-nav ul li ul {
+	margin: 0;
+	padding: 0;
+}
+
+.leftvertical-nav ul li ul {
+	padding-left: 1.5em;	
+}
+
+.leftvertical-nav ul li {
+	background-color: #44BBF8;
+	margin: 4px;
+}
+
+/* Aside styles */
+aside a {
+	text-decoration: none;
+}
+
+.featured-products {
+	width: 15%;
+	float: left;
+	padding-top: 1.5em;
+	padding-left: 1em;
+}
+
+.featured-products>h4 {	
+	text-align: center;
+}
+
+.featured-product {
+	border: 1px solid;
+	border-radius: 1.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+.featured-product h4 {
+	padding-top: 0.25em;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.featured-product-description {
+	text-align: justify;
+	padding: 0 0.2em 0.75em 0.2em;
+	margin: 0;
+}
+
+/* Page footer styles */
+footer {
+	clear: both;
+}
+
+footer address {
+	text-align: center;
+}
